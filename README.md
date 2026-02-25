@@ -231,6 +231,4 @@ The latent space comparison tells the whole story:
 
 ## Why this matters beyond MNIST
 
-PCA's core insight — that high-dimensional data often lies near a low-rank subspace — shows up everywhere in modern ML. It directly motivates **LoRA** (Low-Rank Adaptation), where weight updates are approximated as **ΔW = BA** with B ∈ ℝ^(d×r) and A ∈ ℝ^(r×k), r ≪ min(d, k) — the same rank-reduction idea, applied to fine-tuning large language models.
-
 The trajectory from PCA → Autoencoder → VAE is really the story of learning better bottlenecks: from rigid linear projections, to flexible nonlinear ones, to structured probabilistic ones we can actually sample from.
