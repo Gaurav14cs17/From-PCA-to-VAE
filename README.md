@@ -4,7 +4,7 @@
 
 Everything runs on MNIST with a **2-D latent space**, so you can actually *see* what each method is doing — no abstract 128-dimensional hand-waving.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gaurav-redhat/From-PCA-to-VAE/blob/main/dimensionality_reduction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Gaurav14cs17/From-PCA-to-VAE/blob/main/dimensionality_reduction.ipynb)
 
 <br>
 
